@@ -2,7 +2,7 @@ This is a WWE Card Game:
 
 **Tech Stack:** HTML, CSS, JavaScript
 
-**Game Rules**
+**Game Rules**:
     You can start the game by clicking on the 'Play' Button'
     The game uses a randomized wrestler card deck for both you and the CPU.
     Each wrestler card has four main attributes: Power, Toughness, Speed, and Charisma.
