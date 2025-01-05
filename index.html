@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WWE Card Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <audio autoplay loop>
+    <source src="../WWE/assets/randyorton.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+ 
+
+  <!-- Wrestlers Images -->
+  <img src="../WWE/assets/wrestler1.png" alt="Wrestler1" id="wrestler1">
+  <img src="../WWE/assets/wrestler2.png" alt="Wrestler2" id="wrestler2">
+
+  <!-- Play button -->
+  <button id="playButton" class="play-button">Play</button>
+
+  <!-- Game Container (Hidden Initially) -->
+  <div class="game-container" style="display: none;">
+    <div class="score-container">
+      <h2>Scores</h2>
+      <p>Player: <span id="player-score">0</span></p>
+      <p>CPU: <span id="cpu-score">0</span></p>
+    </div>
+
+    <div class="card-container">
+      <h2>Your Card</h2>
+      <pre id="player-card-info">Waiting for your card...</pre>
+    </div>
+
+    <div class="card-container">
+      <h2>CPU's Card</h2>
+      <pre id="cpu-card-info">Waiting for CPU's card...</pre>
+    </div>
+
+    <div class="feature-container">
+      <h2>Select a Feature</h2>
+      <button class="feature-button" data-feature="POW">Power</button>
+      <button class="feature-button" data-feature="TGH">Toughness</button>
+      <button class="feature-button" data-feature="SPD">Speed</button>
+      <button class="feature-button" data-feature="CHA">Charisma</button>
+    </div>
+  <!-- Placeholder for Results -->
+  <div id="result-container"></div>
+  <!-- Play Again Button -->
+<button id="playAgainButton" class="play-again-button" style="display: none;">Play Again</button>
+
+</body>
+<script src="script.js"></script>
+</html>
