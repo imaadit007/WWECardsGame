@@ -1,5 +1,8 @@
 This is a WWE Card Game:
 
+**Clone using the URL**: https://github.com/imaadit007/WWECardsGame.git
+
+
 **Tech Stack:** HTML, CSS, JavaScript
 
 **Game Rules**:
@@ -10,3 +13,4 @@ This is a WWE Card Game:
     The winner of each round is determined based on the higher stat in the chosen attribute.
     There are a total of 5 rounds.
     After each match, you can choose to play again.
+
